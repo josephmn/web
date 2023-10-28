@@ -21,6 +21,33 @@ body {
   line-height: 1.4;
 }
 
+/* .carousel-item {
+  opacity: 0.8;
+  color: rgb(0, 0, 0);
+} */
+
+.dark-overlay {
+  position: relative;
+}
+
+.dark-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Ajusta el último valor (0.5) para cambiar la opacidad, donde 0 es completamente transparente y 1 es completamente opaco. */
+}
+
+.radius10 {
+  border-radius: 10px !important;
+}
+
+.fondo-white {
+  background-color: white;
+}
+
 /* Para 1920px */
 @media only screen and (max-width: 1920px) {
   .carousel-caption p {
@@ -89,9 +116,9 @@ body {
     line-height: 1.4;
   }
 
-  .img-fluid {
-    height: -webkit-fill-available;
-  }
+  /* .img-fluid {
+    height: auto;
+  } */
 }
 
 /* Para 960px */
@@ -102,9 +129,9 @@ body {
     line-height: 1.4;
   }
 
-  .img-fluid {
-    height: -webkit-fill-available;
-  }
+  /* .img-fluid {
+    height: auto;
+  } */
 }
 
 /* Para 800px */
@@ -118,9 +145,9 @@ body {
     font-size: 2rem;
   }
 
-  .img-fluid {
-    height: -webkit-fill-available;
-  }
+  /* .img-fluid {
+    height: auto;
+  } */
 }
 
 /* Para 640px */

@@ -15,85 +15,92 @@
 
 <body>
     <div class="container mb-2">
-        <header>
-            <!-- navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
-                <div class="container-fluid">
-                    <a class="navbar-brand ps-3" href="#"><b>INNOVACION DIGITAL</b></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
-                        aria-labelledby="offcanvasNavbar2Label">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item mx-3">
-                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                                </li>
-                                <li class="nav-item mx-3">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown mx-3">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <!-- <form class="d-flex mt-3 mt-lg-0" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form> -->
-                        </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark radius10 my-2" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-3" href="#"><b>INNOVACION DIGITAL</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown mx-3">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex mt-3 mt-lg-0" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form> -->
                     </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
     </div>
 
     <div class="container mt-0">
+        <!-- carousel -->
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner radius10">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="img/slide2.jpg" class="d-block w-100" alt="slide 1">
+                    <div class="dark-overlay">
+                        <img src="img/slide2.jpg" class="d-block w-100" alt="slide 1">
+                    </div>
                     <div class="carousel-caption d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>Mejores Soluciones de TI</h5>
+                        <p>Creando siempre las mejores soluciones a la medida.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                    <img src="img/slide5.jpg" class="d-block w-100" alt="slide 2">
+                    <div class="dark-overlay">
+                        <img src="img/slide5.jpg" class="d-block w-100" alt="slide 2">
+                    </div>
                     <div class="carousel-caption d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>Innovación Digital</h5>
+                        <p>Especialistas en sistemas, páginas y aplicaciones web para tu negocio.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                    <img src="img/slide7.jpg" class="d-block w-100" alt="slide 3">
+                    <div class="dark-overlay">
+                        <img src="img/slide7.jpg" class="d-block w-100" alt="slide 3">
+                    </div>
                     <div class="carousel-caption d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5>Expertos en Desarrollo</h5>
+                        <p>Somos un equipo Joven y con amplios conocimientos en el desarrollo que necesitas.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                    <img src="img/slide12.jpg" class="d-block w-100" alt="slide 4">
+                    <div class="dark-overlay">
+                        <img src="img/slide12.jpg" class="d-block w-100" alt="slide 4">
+                    </div>
                     <div class="carousel-caption d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5>Adaptabilidad</h5>
+                        <p>Nuestros expertor se adaptan al tipo de negocio que se necesite en el mercado.</p>
                     </div>
                 </div>
             </div>
@@ -110,42 +117,133 @@
         </div>
     </div>
 
+    <!-- Quienes somos -->
     <div class="container mt-2">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="background-color: white;">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
-                        <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-body-secondary">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
-                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                            Continue reading
-                            <svg class="bi">
-                                <use xlink:href="#chevron-right" /></svg>
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <img class="img-fluid" src="img/slide6.jpg" alt="">
-                    </div>
-                </div>
+        <div class="row g-0 align-items-center fondo-white radius10">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-3">
+                <h1 class="fs-1 text-center mb-4">Quienes somos</h1>
+                <p class="card-text text-center">
+                    Somos <b>Innovación Digital</b>, una empresa de
+                    desarrollo de software comprometida a transformar ideas en soluciones digitales.
+                    Desarrollamos software de alta calidad que ayuda a empresas y organizaciones a alcanzar sus
+                    objetivos.
+                    Nuestra pasión es la tecnología y nuestro enfoque es la satisfacción del cliente.
+                    <br><br>Trabajamos estrechamente con usted para entender sus necesidades y proporcionar
+                    soluciones personalizadas que hacen la diferencia.
+                    En Innovación Digital, la innovación es nuestra fuerza motriz. Nos mantenemos al día con las
+                    últimas tendencias tecnológicas para brindarle soluciones efectivas y de vanguardia.
+                    ¡Permítanos ser su socio en su viaje tecnológico!
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-3">
+                <img src="img/slide6.jpg" class="img-fluid radius10" alt="Image" />
             </div>
         </div>
     </div>
 
+    <!-- Nuestros Servicios -->
     <div class="container mt-2">
-        <div class="row">
-            <h1 class="display-3">Hello, World!</h1>
-            <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente alias consequatur inventore maxime
-                iste eius esse provident facilis atque, deleniti amet commodi soluta assumenda! Doloremque
-                voluptates corrupti iste blanditiis, quaerat quidem quos voluptate id ad aperiam voluptatem amet nemo,
-                odit vero cumque totam deleniti dolorum commodi. Sed ipsa ab officiis.
-            </p>
-            <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
+        <div class="row g-0 align-items-center fondo-white radius10">
+
+            <h2 class="p-2 border-bottom text-center fs-1">Nuestros Servicios</h2>
+            <p class="fs-4 text-center">Productos diseñados a la medida de tu negocio</p>
+
+            <div class="col-md-4 p-3">
+                <div class="card">
+                    <div class="row p-2">
+                        <div class="row-cols-1 row-cols-lg-1">
+                            <img src="img/foto1.jpg" class="img-fluid radius10" alt="card 1">
+                        </div>
+                        <div class="row-cols-1 row-cols-sm-1">
+                            <div class="card-body">
+                                <h5 class="fs-3 card-title">Web Design</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut
+                                    interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-3">
+                <div class="card">
+                    <div class="row p-2">
+                        <div class="row-cols-1 row-cols-lg-1">
+                            <img src="img/foto2.jpg" class="img-fluid radius10" alt="card 2">
+                        </div>
+                        <div class="row-cols-1 row-cols-sm-1">
+                            <div class="card-body">
+                                <h5 class="fs-3 card-title">Web Development</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut
+                                    interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-3">
+                <div class="card">
+                    <div class="row p-2">
+                        <div class="row-cols-1 row-cols-lg-1">
+                            <img src="img/foto2.jpg" class="img-fluid radius10" alt="card 3">
+                        </div>
+                        <div class="row-cols-1 row-cols-sm-1">
+                            <div class="card-body">
+                                <h5 class="fs-3 card-title">Programming</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut
+                                    interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-2">
+        <div class="row g-0 row-cols-1 row-cols-md-2 fondo-white radius10">
+            <div class="col p-5">
+                <div class="card">
+                    <img src="img/service1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-5">
+                <div class="card">
+                    <img src="img/service3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-5">
+                <div class="card">
+                    <img src="img/service5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-5">
+                <div class="card">
+                    <img src="img/service6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
