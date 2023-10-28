@@ -15,6 +15,7 @@ body {
 }
 
 .carousel-caption {
+  padding-bottom: 0rem !important;
   margin-bottom: 1.25rem;
   font-size: 1.25rem;
   line-height: 1.4;
